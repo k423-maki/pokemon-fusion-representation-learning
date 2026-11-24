@@ -1,0 +1,35 @@
+{
+  "project": "Pokemon Fusion Representation Learning",
+  "author": "Yi Yao",
+  "original_work": "Course experiments, May 2025",
+  "portable_refactor": {
+    "date": "2026-11-23",
+    "AI_assisted": true,
+    "files": [
+      "models.py",
+      "run.py"
+    ],
+    "purpose": "Organize existing notebook architectures and add a portable CLI, seeded splits, software checks and explicit metrics."
+  },
+  "public_preparation": {
+    "date": "2026-11-24",
+    "AI_assisted": true,
+    "changes": [
+      "Removed embedded image/HTML and error outputs from public notebook copies.",
+      "Omitted all course image arrays, saved model weights and image outputs.",
+      "Added a synthetic fixture generator and public documentation."
+    ]
+  },
+  "historical_notebooks": [
+    {
+      "notebook": "archive/baseline_1000_epochs.ipynb",
+      "original_local_package_sha256": "844dda4973381096cae641e0994163aa7b1cbe4597f077cca76d71f54e993b55",
+      "removed_non_text_or_error_outputs": 2
+    },
+    {
+      "notebook": "archive/resnet_classifier_prototype.ipynb",
+      "original_local_package_sha256": "9c6c106194acc5ec6855180cc310751bb2daab4377c221ab8b91970a7b607592",
+      "removed_non_text_or_error_outputs": 3
+    }
+  ]
+}
